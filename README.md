@@ -1,6 +1,6 @@
 # deep_learning
 
-- Background
+- # Background
 
 The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 
@@ -25,3 +25,32 @@ Before You Begin
 3. Inside your local git repository, create a directory for the Deep Learning Challenge.
 
 4. Push the above changes to GitHub.
+
+# Step 1: Preprocess the Data
+Using your knowledge of Pandas and scikit-learn’s StandardScaler(), you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.
+
+# Step 2: Compile, Train, and Evaluate the Model
+Using your knowledge of TensorFlow, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset. You’ll need to think about how many inputs there are before determining the number of neurons and layers in your model. Once you’ve completed that step, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
+
+# Step 3: Optimize the Model
+Using your knowledge of TensorFlow, optimize your model to achieve a target predictive accuracy higher than 75%.
+
+Use any or all of the following methods to optimize your model:
+
+Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
+Dropping more or fewer columns.
+Creating more bins for rare occurrences in columns.
+Increasing or decreasing the number of values for each bin.
+Add more neurons to a hidden layer.
+Add more hidden layers.
+Use different activation functions for the hidden layers.
+Add or reduce the number of epochs to the training regimen.
+
+# Conclusion
+0.5519507527351379, Accuracy: 0.7257142663002014Loss: 0.5519507527351379, Accuracy: 0.7257142663002014RESULTS:
+
+This is Attempt #1 APPLICATION_TYPE cutoff = 600 CLASSIFICATION cutoff = 300 layer1 = 9 : activation function = relu layer2 = 18 : activation function = relu
+
+Loss: 0.5519507527351379, Accuracy: 0.7257142663002014
+
+A loss value of 55 indicates that the model can be further optimized. The accuracy percent shows that 72% of the model's predicted values align with the true values in the original dataset.
